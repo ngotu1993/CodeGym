@@ -180,10 +180,11 @@
     text-decoration: none;
 }
 
-#content-3 .card-body:hover a,
+
+/* #content-3 .card-body:hover a,
 #content-8 .card:hover a {
     color: #26c6d0;
-}
+} */
 
 #content-3 .nav-item a,
 #content-8 .nav-item a {
@@ -231,6 +232,7 @@
 }
 
 #content-3 .card .buy-now,
+#content-8 .card .buy-now,
 #content-product .card .buy-now {
     display: block;
     font-size: 1.6rem;
@@ -247,6 +249,7 @@
 }
 
 #content-3 .card:hover .buy-now,
+#content-8 .card:hover .buy-now,
 #content-product .card:hover .buy-now {
     z-index: 0;
     opacity: 0.8;
