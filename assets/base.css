@@ -1,0 +1,104 @@
+/* Reset CSS */
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #26c6d0;
+}
+
+.btn-style {
+    background-color: #26c6d1;
+    color: #fff;
+    border-radius: 5px;
+    padding: 13px 25px 12px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    transition: all .3s ease 0s;
+}
+
+.btn-style:hover {
+    background-color: #454545;
+    color: #fff;
+}
+
+.btn-view {
+    background-color: #454545;
+    color: #fff;
+    border-radius: 5px;
+    padding: 13px 25px 12px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    transition: all .3s ease 0s;
+}
+
+.btn-view:hover {
+    background-color: var(--primary-color);
+}
+
+@media (max-width: 1299px) {
+    .navbar {
+        padding: 0.5rem 1.5rem;
+    }
+}
+
+@media (min-width: 1300px) {
+    .container-fluid {
+        padding: 0 7.5rem;
+    }
+    .navbar {
+        padding: 0.5rem 7.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    #footer-2 .social {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    #footer-2 .payment {
+        text-align: center !important;
+    }
+}
+
+@media (min-width: 768px) {
+    #content-1 .banner-content .btn-style {
+        padding: 1rem !important;
+    }
+    #content-1 .banner-content {
+        left: 20%;
+    }
+}
+
+@media (max-width: 575px) {
+    #header-1 .navbar-right {
+        justify-content: center !important;
+        margin-top: 3rem;
+    }
+    #content-6 .collection-content img {
+        object-position: -40rem;
+    }
+}
+
+@keyframes aniName {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
